@@ -1,0 +1,51 @@
+body{
+    background-color:darkslateblue;
+    text-align: center;
+}
+h1{
+    font-family: serif;
+    font-size: 48px;
+    position: relative;
+    top: 26px;
+    color:aliceblue;
+}
+.whiteBox{
+    display:inline-block;
+    background-color: rgb(180, 25, 25);
+    height:170px;
+    width:170px;
+    margin:2px;
+    border:3px solid black;
+}
+
+.imgBox{
+    background-image: url('prit.png');
+    background-repeat:no-repeat;
+    position:relative;
+    top:5px;
+    left:5px;
+    width: 160px;
+    height:160px;
+    cursor:pointer;
+    /* background-color: white; */
+    background-color: transparent;
+}
+
+.container{
+    position:relative;
+    display:inline;
+    top:60px;
+}
+
+.hold{
+    border:2px solid red;
+}
+
+.hide{
+    display:none;
+}
+
+.dashed{
+    background-color: blueviolet;
+    border:2px dashed black;
+}
